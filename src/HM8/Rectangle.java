@@ -1,2 +1,4 @@
-package HM8;public class Rectangle {
+package HM8;
+
+public class Rectangle extends Shape {
 }

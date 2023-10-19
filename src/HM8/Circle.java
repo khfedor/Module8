@@ -1,2 +1,4 @@
-package HM8;public class Circle {
+package HM8;
+
+public class Circle extends Shape {
 }
