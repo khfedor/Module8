@@ -1,9 +1,6 @@
 package HM8;
 
-import HM8.Circle;
-import HM8.Oval;
-import HM8.Quad;
-import HM8.Star;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -31,5 +28,12 @@ public class Main {
         System.out.println(quad);
         System.out.println(rectangle);
         System.out.println(shape);
+
+        ShapePrinter shapePrinter = new ShapePrinter();
+        shapePrinter.printShape(circle);
+        shapePrinter.printShape(oval);
+        shapePrinter.printShape(star);
+        shapePrinter.printShape(quad);
+        shapePrinter.printShape(rectangle);
     }
 }
